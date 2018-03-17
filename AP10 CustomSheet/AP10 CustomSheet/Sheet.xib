@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ViewController" customModule="AP10_CustomSheet" customModuleProvider="target">
+            <connections>
+                <outlet property="window" destination="QvC-M9-y7g" id="kvm-9F-Abs"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kbS-aT-p08">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="EXe-bh-V9O"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="sheet" drawsBackground="YES" id="gGH-oo-Mn3">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dfS-0M-ub5">
+                        <rect key="frame" x="204" y="33" width="73" height="32"/>
+                        <buttonCell key="cell" type="push" title="close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="I7b-nP-YLI">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="close:" target="-2" id="UJa-Bj-L3J"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dfS-0M-ub5" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="0gk-Li-RfD"/>
+                    <constraint firstItem="kbS-aT-p08" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="1t9-QA-U59"/>
+                    <constraint firstItem="dfS-0M-ub5" firstAttribute="centerY" secondItem="EiT-Mj-1SZ" secondAttribute="centerY" id="EFP-Dr-FWO"/>
+                    <constraint firstItem="kbS-aT-p08" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="Fr4-ot-Ftg"/>
+                    <constraint firstAttribute="trailing" secondItem="kbS-aT-p08" secondAttribute="trailing" id="Zdd-Nh-w9X"/>
+                    <constraint firstAttribute="bottom" secondItem="kbS-aT-p08" secondAttribute="bottom" id="dih-zt-6Xg"/>
+                </constraints>
+            </view>
+        </window>
+    </objects>
+</document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ST02 NSLabel/ST02 NSLabel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ST01 &#x8bbe;&#x7f6e;&#x7cfb;&#x7edf;&#x7684;Dock&#x680f;&#x4e0a;&#x7684;&#x56fe;&#x7247;&#x548c; badge/ST01 &#x8bbe;&#x7f6e;&#x7cfb;&#x7edf;&#x7684;Dock&#x680f;&#x4e0a;&#x7684;&#x56fe;&#x7247;&#x548c; badge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP17 Animation/AP17 Animation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MusicDemo/MusicDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP16 Print Document02/AP16 Print Document02.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP15 PrintDocument01/AP15 PrintDocument01.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP14 Responder Chain/AP14 Responder Chain.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP13 Share/AP13 Share.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP12 CollectionView/AP12 CollectionView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP 11 Screen Saver/AP 11 Screen Saver.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP10 CustomSheet/AP10 CustomSheet.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP09 NSPopver/AP09 NSPopver.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP08 MouseEvent/AP08 MouseEvent.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP07 Drag/AP07 Drag.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP06 WebView/AP06 WebView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP05 NSDocument/AP05 NSDocument.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP04 MultipleWindow/AP04 MultipleWindow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP03 NSToolBar/AP03 NSToolBar.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSMainMenu/NSMainMenu.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP03 NSPopupBtn/AP03 NSPopupBtn.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP02 NSSlider/AP02 NSSlider.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AP01 Test/AP01 Test.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSCollectionView2/NSCollectionView2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSCollectionView1/NSCollectionView1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSBinding/NSBinding.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSToolBar2/NSToolBar2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSSplitViewController/NSSplitViewController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSTabController/NSTabController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSWindowController/NSWindowController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSPopver/NSPopver.xcodeproj">
+   </FileRef>
+</Workspace>

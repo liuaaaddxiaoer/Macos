@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="Window2VC" customModule="AP04_MultipleWindow" customModuleProvider="target">
+            <connections>
+                <outlet property="window" destination="QvC-M9-y7g" id="2Li-Ws-Hge"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="J6Z-7q-aMu">
+                        <rect key="frame" x="222" y="127" width="37" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="BST-7r-Tqi">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="J6Z-7q-aMu" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="PW5-AS-pha"/>
+                    <constraint firstItem="J6Z-7q-aMu" firstAttribute="centerY" secondItem="EiT-Mj-1SZ" secondAttribute="centerY" id="iix-u4-ynX"/>
+                </constraints>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="3EB1E640-E166-4BD2-96B3-8FB3D88CAF63" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="Hzw-EQ-f8Y">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="BUA-8E-xZG"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="Y25-cx-kS8"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="H6W-a9-MbN"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="wXI-wc-f8V"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="fZi-Tq-BO1"/>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="BUA-8E-xZG"/>
+                    <toolbarItem reference="Y25-cx-kS8"/>
+                    <toolbarItem reference="fZi-Tq-BO1"/>
+                    <toolbarItem reference="H6W-a9-MbN"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <point key="canvasLocation" x="59" y="173"/>
+        </window>
+    </objects>
+</document>
